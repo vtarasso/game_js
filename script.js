@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
     resultHeader.classList.add('hide');
 
     // Получаем время игры из поля ввода и обновляем соответствующий элемент DOM
-    // time = parseFloat(gameTimeInput.value);
+    time = parseFloat(gameTimeInput.value);
     timeSpan.textContent = time.toFixed(1);
     // Сбрасываем счетчик кликов
     clickCount = 0;
