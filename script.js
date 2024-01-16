@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function () {
     gameTimeInput.addEventListener('input', function() {
       resultHeader.classList.add('hide');
       timeHeader.classList.remove('hide');
-      // time = parseFloat(gameTimeInput.value);
+      time = parseFloat(gameTimeInput.value);
       timeSpan.textContent = time.toFixed(1);
       // console.log('Значение инпута изменилось:', gameTimeInput.value);
     });
